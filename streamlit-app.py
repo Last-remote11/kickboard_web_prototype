@@ -126,7 +126,7 @@ def main():
                 ProcessFrames(vf, model, stop_button)
             else:
                 state.run = True
-                trigger_rerun()
+                # trigger_rerun()
 
 
 def ProcessFrames(vf, obj_detector,stop): 
